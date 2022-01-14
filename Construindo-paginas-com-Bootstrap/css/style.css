@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  opacity: 0%; /* color of the tracking area */
+  background-color: #54264f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(84, 38, 79, 1); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(16, 5, 64, 1) 0%,
+    rgba(84, 38, 79, 1) 100%
+  );
+}
+
+.corpo {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(16, 5, 64, 1) 0%,
+    rgba(84, 38, 79, 1) 100%
+  );
+}
+
+.imagem {
+  opacity: 100%;
+  max-width: 1528px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.logo {
+  max-width: 375px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 264px;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding-top: 35%;
+  padding-left: 24%;
+  position: absolute;
+  z-index: 1;
+}
+.title2 {
+  font-size: 96px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding-top: 41%;
+  padding-left: 60%;
+  position: absolute;
+  z-index: 1;
+}
+
+.subtitle {
+  font-weight: lighter;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  padding-top: 47.5%;
+  padding-left: 62%;
+  position: absolute;
+  z-index: 1;
+}
+
+.nav-item {
+  margin: 0 30px;
+  color: rgb(236, 0, 0);
+}
