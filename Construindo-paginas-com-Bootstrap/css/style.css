@@ -39,6 +39,8 @@ body::-webkit-scrollbar-thumb {
 
 .content {
   margin-left: 110px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .logo-bg {
@@ -87,10 +89,81 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 50vh;
+  height: 70vh;
 }
 .content-about {
   width: 1116px;
-  height: 544px;
-  background-color: red;
+  height: 500px;
+  background: rgb(223, 41, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 41, 227, 0.1) 100%,
+    rgba(47, 22, 114, 0.2) 0%
+  );
+}
+
+.title-about {
+  color: white;
+  text-transform: uppercase;
+  font-size: 64px;
+  margin-top: 94px;
+  margin-left: 54px;
+}
+
+.decoration {
+  margin-top: -15px;
+  margin-left: 70px;
+}
+
+.circle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #f461c2;
+  border-radius: 100%;
+}
+.circle1 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #f461c2;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+.circle2 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #f461c2;
+  border-radius: 100%;
+  margin-left: 20px;
+}
+
+.line {
+  position: absolute;
+  width: 172px;
+  height: 1px;
+  margin-left: 40px;
+  background-color: #f461c2;
+}
+
+.text-about {
+  margin-top: 80px;
+  margin-left: 50px;
+  text-align: justify;
+  width: 40%;
+  color: white;
+  float: left;
+}
+
+.img {
+  margin-top: -120px;
+  float: right;
+  width: 50%;
+}
+
+.profile-img {
+  position: absolute;
+  width: 473px;
+  height: 430px;
 }
